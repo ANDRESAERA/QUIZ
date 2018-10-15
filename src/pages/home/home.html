@@ -1,14 +1,66 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+     Dispositivos
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-row>
+  <ion-col>
+  <ion-card (click)="Bocina()">
+
+    <ion-card-header>
+      Bocina
+    </ion-card-header>
+  
+    <ion-card-content>
+     
+    </ion-card-content>
+  
+  </ion-card>
+</ion-col>
+<ion-col>
+    <ion-card (click)="TV()">
+  
+      <ion-card-header>
+        TV
+      </ion-card-header>
+    
+      <ion-card-content>
+       
+      </ion-card-content>
+    
+    </ion-card>
+  </ion-col>
+</ion-row>
+<ion-row>
+    <ion-col>
+    <ion-card (click)="Phone()">
+  
+      <ion-card-header>
+        Smartphone
+      </ion-card-header>
+    
+      <ion-card-content>
+       
+      </ion-card-content>
+    
+    </ion-card>
+  </ion-col>
+  <ion-col>
+      <ion-card (click)="Lampara()">
+    
+        <ion-card-header>
+          Lampara
+        </ion-card-header>
+      
+        <ion-card-content>
+         
+        </ion-card-content>
+      
+      </ion-card>
+    </ion-col>
+  </ion-row>
 </ion-content>
